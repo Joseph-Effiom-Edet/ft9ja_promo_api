@@ -108,6 +108,7 @@ router.post("/", async (req, res) => {
                 "
               >
                 Regards,
+                <br>
                 <span>FT9ja Team</span>
               </p>
             </div>
@@ -130,11 +131,14 @@ router.post("/", async (req, res) => {
                     border-radius: 50%;
                   "
                 >
-                  <img
+                <a href="https://web.facebook.com/ft9ja" style="margin: 2px 0 auto 1px;">
+
+                    <img
                     src="https://res.cloudinary.com/ddlupbcws/image/upload/v1681287720/facebook_aesodh.png"
                     alt=""
-                    style="width: 80%; margin: auto"
-                  />
+                    style="width: 90%"
+                    />
+                </a>
                 </div>
                 <div
                   style="
@@ -146,11 +150,13 @@ router.post("/", async (req, res) => {
                     border-radius: 50%;
                   "
                 >
-                  <img
+                <a href="https://www.instagram.com/ft9ja.official/" style="margin: auto 0 auto 2px;">
+                    <img
                     src="https://res.cloudinary.com/ddlupbcws/image/upload/v1681287720/instagram_jto0qp.png"
                     alt=""
-                    style="width: 80%; margin: auto"
-                  />
+                    style="width: 90%;"
+                    />
+                </a>
                 </div>
                 <div
                   style="
@@ -162,11 +168,14 @@ router.post("/", async (req, res) => {
                     border-radius: 50%;
                   "
                 >
-                  <img
+                <a href=" https://wa.me/2348138462394" style="margin: auto 0 auto 3px;">
+
+                    <img
                     src="https://res.cloudinary.com/ddlupbcws/image/upload/v1681287720/whatsapp_id03gi.png"
                     alt=""
-                    style="width: 80%; margin: auto"
-                  />
+                    style="width: 90%;"
+                    />
+                </a>
                 </div>
               </div>
               <div style="display: grid; gap: 12px">
@@ -178,7 +187,7 @@ router.post("/", async (req, res) => {
                     text-align: center;
                   "
                 >
-                  Lagos: 30a Oladimeji Alo Street, Lekki Phase 1.
+                  Lagos: 30a Oladimeji Alo Street, Lekki Phase 1. <br> <span>(Appointments only)</span>
                 </p>
                 <p
                   style="
@@ -188,7 +197,7 @@ router.post("/", async (req, res) => {
                     text-align: center;
                   "
                 >
-                  Abuja: 18, Queen Elizabeth Street, Asokoro (Appointments only)
+                  Abuja: 18 Queen Elizabeth Street, Asokoro. <br> <span>(Appointments only)</span>
                 </p>
                 <p
                   style="
@@ -232,7 +241,7 @@ router.post("/", async (req, res) => {
       })
       .catch(console.log);
   } catch (err) {
-    res.status(500).json(err.message);
+    res.status(500).json(err);
   }
 });
 
