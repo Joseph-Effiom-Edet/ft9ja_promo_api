@@ -230,7 +230,7 @@ router.post("/", async (req, res) => {
       .sendTransacEmail({
         sender,
         to: receiver,
-        subject: "Registeration Successfull",
+        subject: "Registration Successful",
         htmlContent: html,
       })
       .then(() => {
