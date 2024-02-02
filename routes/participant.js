@@ -187,7 +187,7 @@ router.post("/", async (req, res) => {
                     text-align: center;
                   "
                 >
-                  Lagos: 30a Oladimeji Alo Street, Lekki Phase 1. <br> <span>(Appointments only)</span>
+                  Lagos: Adepate House, 44 Montgomery Rd, Yaba 101245, Lagos. <br> <span>(Appointments only)</span>
                 </p>
                 <p
                   style="
